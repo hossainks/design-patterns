@@ -1,6 +1,6 @@
 import { test, expect } from "../custom-fixtures/testData.js";
 
-test("first test", async ({ page, credentials }) => {
+test("first test using simple Fixture", async ({ page, credentials }) => {
   await page.goto("https://www.saucedemo.com/");
   await expect(page).toHaveTitle("Swag Labs");
 
