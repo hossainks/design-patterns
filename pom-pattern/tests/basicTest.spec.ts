@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-test("first test using simple Fixture", async ({ page }) => {
+test("Basic Test", async ({ page }) => {
   await page.goto("/");
   await expect(page).toHaveTitle("Swag Labs");
 
