@@ -178,7 +178,3 @@ npx playwright show-report
 
 This setup showcases a **fixture-driven design pattern** in Playwright — a scalable approach where environment setup, authentication, and data management are abstracted into composable units.
 By structuring tests this way, you ensure **clarity, reusability, and reliability** as your automation framework evolves.
-
-```
-
-```
