@@ -151,7 +151,7 @@ With fixtures:
 Move into the fixture workspace folder:
 
 ```bash
-cd fixtures
+cd fixtures-pattern
 ```
 
 Install dependencies:
