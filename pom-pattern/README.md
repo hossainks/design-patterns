@@ -191,7 +191,20 @@ test("Login as standard user using POM", async ({ page }) => {
 ✅ Simple POM example
 📌 Manual object creation in every test
 
----
+### ▶️ Execution Flow — Visualized
+
+```mermaid
+flowchart TD
+A[Test Start] --> B[Playwright Loads Test File]
+B --> C[Fixture Injects loginPage Object]
+C --> D[New Login page Created]
+D --> E[Goto Login Page]
+E --> F[Enter Username/Password]
+F --> G[Click Login Button]
+G --> H[Inventory Page Loads]
+H --> I[Assertions Using POM Elements]
+I --> J[Test End ✅]
+```
 
 ## 🚀 Running Tests
 
