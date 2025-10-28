@@ -6,7 +6,7 @@
         "description": "",
         "id": "user-login;login-with-valid-credentials",
         "keyword": "Scenario",
-        "line": 2,
+        "line": 3,
         "name": "Login with valid credentials",
         "steps": [
           {
@@ -14,46 +14,46 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2287121699
+              "duration": 1017007200
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 3,
-            "name": "the user is on the login page",
+            "line": 4,
+            "name": "the user is on login page",
             "match": {
-              "location": "file:\\E:\\My-Scripts\\design-patterns\\bdd-pattern\\step-definations\\basicLoginSteps.js:4"
+              "location": "file:\\E:\\My-Scripts\\design-patterns\\bdd-pattern\\step-definations\\pom\\pomPage.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 870435700
+              "duration": 752643099
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 4,
-            "name": "the user enter valid credentials",
+            "line": 5,
+            "name": "user enter valid credentials",
             "match": {
-              "location": "file:\\E:\\My-Scripts\\design-patterns\\bdd-pattern\\step-definations\\basicLoginSteps.js:8"
+              "location": "file:\\E:\\My-Scripts\\design-patterns\\bdd-pattern\\step-definations\\pom\\pomPage.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 222345400
+              "duration": 202545599
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 5,
-            "name": "the dashboard page appears",
+            "line": 6,
+            "name": "dashboard page appears",
             "match": {
-              "location": "file:\\E:\\My-Scripts\\design-patterns\\bdd-pattern\\step-definations\\basicLoginSteps.js:14"
+              "location": "file:\\E:\\My-Scripts\\design-patterns\\bdd-pattern\\step-definations\\pom\\pomPage.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 1058239500
+              "duration": 1052765300
             }
           },
           {
@@ -61,11 +61,16 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 368725499
+              "duration": 494205600
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@pom",
+            "line": 2
+          }
+        ],
         "type": "scenario"
       }
     ],
@@ -74,6 +79,6 @@
     "keyword": "Feature",
     "name": "User Login",
     "tags": [],
-    "uri": "features\\login.feature"
+    "uri": "features\\pom\\loginPom.feature"
   }
 ]
