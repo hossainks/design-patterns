@@ -1,0 +1,63 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-login;login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Login with valid credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "file:\\E:\\My-Scripts\\design-patterns\\bdd-pattern\\step-definations\\login.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1960299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "the user enter valid credentials",
+            "match": {
+              "location": "file:\\E:\\My-Scripts\\design-patterns\\bdd-pattern\\step-definations\\login.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 285900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the dashboard page appears",
+            "match": {
+              "location": "file:\\E:\\My-Scripts\\design-patterns\\bdd-pattern\\step-definations\\login.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 380599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User Login",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
