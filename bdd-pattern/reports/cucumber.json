@@ -10,16 +10,24 @@
         "name": "Login with valid credentials",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2287121699
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 3,
             "name": "the user is on the login page",
             "match": {
-              "location": "file:\\E:\\My-Scripts\\design-patterns\\bdd-pattern\\step-definations\\login.js:3"
+              "location": "file:\\E:\\My-Scripts\\design-patterns\\bdd-pattern\\step-definations\\basicLoginSteps.js:4"
             },
             "result": {
               "status": "passed",
-              "duration": 1960299
+              "duration": 870435700
             }
           },
           {
@@ -28,11 +36,11 @@
             "line": 4,
             "name": "the user enter valid credentials",
             "match": {
-              "location": "file:\\E:\\My-Scripts\\design-patterns\\bdd-pattern\\step-definations\\login.js:7"
+              "location": "file:\\E:\\My-Scripts\\design-patterns\\bdd-pattern\\step-definations\\basicLoginSteps.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 285900
+              "duration": 222345400
             }
           },
           {
@@ -41,11 +49,19 @@
             "line": 5,
             "name": "the dashboard page appears",
             "match": {
-              "location": "file:\\E:\\My-Scripts\\design-patterns\\bdd-pattern\\step-definations\\login.js:11"
+              "location": "file:\\E:\\My-Scripts\\design-patterns\\bdd-pattern\\step-definations\\basicLoginSteps.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 380599
+              "duration": 1058239500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 368725499
             }
           }
         ],
